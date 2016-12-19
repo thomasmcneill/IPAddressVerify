@@ -1,0 +1,146 @@
+
+
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	margin:0 auto;
+}
+body {
+	text-align:center;
+	background: #f6f6f6; 
+	font: normal;
+}
+img {
+	border:0;
+}
+h2,legend,input{
+	font: normal;
+	line-height:normal;
+}
+fieldset ,form{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+/* Banner */
+
+#banner {
+	width:180px;
+	height:25px;
+	background: url(../images/logo.png) no-repeat;
+	float:left;
+	margin:17px 0 0 15px;
+}
+
+#pageHeader {
+	width:760px;
+	height:47px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/* Forms */
+
+
+#NetworkPage1, #DeviceInformationPage {
+	display: none;
+}
+
+#IPError, #SMError, #GWError, #PDNSError, #SDNSError {
+	font-weight: bold;
+	font-size: 0.875em;
+	color: red;
+}
+
+
+
+
+#PageBody {
+	width: 760px;
+	display: flex;
+	margin: auto;
+}
+#LeftSection {
+	width: 500px;
+	background: #ffffff;
+}
+
+#RightSection {
+	flex-grow: 1;
+	/*float:right;
+	
+	width: 224px;*/
+	background: #a0ffa0;
+}
+
+#Status  {
+	width:224px;
+	text-align:left;
+	color:#000000;
+	
+}
+#Status h2 {
+	font-weight:bold;
+	padding:6px;
+	margin:0;
+}
+#Status ul {
+	list-style:none;
+}
+#Status ul li {
+	margin:0 8px;
+	padding-left:6px;
+	
+	height:18px;
+	line-height:18px;
+	overflow:hidden;
+}
+#Status ul li a {
+	color:#000000;
+	text-decoration:none;
+}
+#Status ul li a:hover {
+	color:#000000;
+	text-decoration: underline;
+}
+
+
+#Option1, #Option2, #Option3 {
+	float:left;
+}
+#Option1 h2, #Option2 h2, #Option3 h2 {
+	border-bottom:1px solid #8C8C8C;
+	margin:15px 0 5px 0;
+	padding-bottom:2px;
+	text-align:left;
+}
+#Option1 ul ,#Option2 ul,#Option3 ul {
+	list-style:none;
+	text-align:left;
+}
+#Option1 ul li ,#Option2 ul li,#Option3 ul li {
+	margin: 0 5px;
+	padding-left:10px;
+	height:21px;
+	line-height:21px;
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
